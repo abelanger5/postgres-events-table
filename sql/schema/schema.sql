@@ -9,7 +9,7 @@ CREATE TABLE simple_events (
 );
 
 -- Create index on resource_id and tenant_id
-CREATE INDEX ON simple_events (resource_id, tenant_id);
+CREATE INDEX ON simple_events (tenant_id, resource_id);
 
 -- CreateTable logs
 CREATE TABLE logs (
