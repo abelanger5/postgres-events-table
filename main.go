@@ -9,8 +9,8 @@ import (
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "events",
-	Short: "events demonstrates simple commands for an events table implementation in Golang.",
+	Use:   "pg-events",
+	Short: "pg-events demonstrates simple commands for an events table implementation in Postgres.",
 	Run: func(cmd *cobra.Command, args []string) {
 	},
 }
